@@ -1,0 +1,293 @@
+.page {
+    background: #ffffff;
+    padding: 0 15px;
+}
+
+.page_content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 24px;
+}
+
+.header_logo {
+    font-size: 17px;
+}
+
+.divider {
+    margin: 0;
+    height: 1px;
+    background: #9da4aa;
+}
+
+.nav {
+    display: block;
+}
+
+.nav_link {
+    color: #236e40;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 166);
+}
+
+.nav_vertical>.nav_link {
+    display: block;
+}
+
+.nav_inline>.nav_link:not(:last-child) {
+    margin-right: 24px;
+}
+
+.nav_vertical>.nav_link:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.header_nav_right {
+    margin-left: auto;
+    width: fit-content;
+}
+
+.page_block:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.footer {
+    padding: 24px;
+}
+
+.footer_copyright {
+    font-size: 14px;
+    color: #fafbfb;
+    display: block;
+    margin-top: 12px;
+}
+
+.footer_title {
+    font-size: 20px;
+    color: #73777b;
+
+    display: block;
+    margin-bottom: 12px;
+}
+
+.hero_title {
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.hero_text {
+    color: #ffffff;
+    font-size: 20px;
+    max-width: 585px;
+
+    line-height: 150%;
+}
+
+.hero {
+    background: #535659;
+    border-radius: 24px;
+    padding: 80px;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+
+    max-width: 248px;
+    width: 100%;
+
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+
+    background: #007BFF;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.button:hover {
+    background: #1273db;
+}
+
+.preview {
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.preview_header>span:not(:last-of-type) {
+    margin-right: 12px;
+}
+
+.preview_data {
+    color: #6C757D;
+    font-size: 16px;
+}
+
+.preview_category {
+    font-size: 16px;
+}
+
+.preview>*:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.preview_title {
+    display: block;
+    color: #343A40;
+
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.preview_description {
+    color: #212529;
+    font-size: 16px;
+}
+
+.preview_category_1 {
+    color: #007BFF
+}
+
+.preview_category_2 {
+    color: #198754;
+}
+
+.preview_category_3 {
+    color: #FF0000;
+}
+
+.preview_category_4 {
+    color: #FF7A00;
+}
+
+.list_title {
+    font-weight: 500;
+    font-size: 32px;
+    color: #212529;
+    margin: 0;
+}
+
+.list_header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.category_button {
+    font-size: 16px;
+    color: #34648f;
+    padding: 10px 16px;
+    border-radius: 40px;
+    border: 1px solid #9da4aa;
+
+    line-height: 100%;
+}
+
+.category_button:hover {
+    background: #eef2f4;
+}
+
+.list_aside {
+    margin-right: 40px;
+}
+
+.category_list {
+    text-align: right;
+}
+
+.list>*:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.post {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.post>*:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.post_title {
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+    color: #212529;
+}
+
+.post_info {
+    color: #9da4aa;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.post_author {
+    color: #007BFF
+}
+
+.post_description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+}
+
+.list_aside>*:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.about {
+    background: #f0f2f4;
+    padding: 24px;
+}
+
+.about_title {
+    color: #212529;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about_text {
+    color: #212529;
+    font-weight: 400;
+    font-size: 14px;
+
+    line-height: 170%;
+}
+
+.link_list {
+    padding: 24px;
+}
+
+.link_title {
+    display: block;
+
+    font-weight: 500;
+    font-size: 24px;
+    color: #212529;
+}
+
+.link_list>*:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.link_item {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.link_item:hover {
+    text-decoration: underline;
+}

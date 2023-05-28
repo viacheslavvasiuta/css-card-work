@@ -12,14 +12,14 @@
     padding: 24px;
 }
 
-.logo {
+.header_logo {
     font-size: 17px;
 }
 
 .divider {
     margin: 0;
     height: 1px;
-    background: #555d65;
+    background: #9da4aa;
 }
 
 .nav {
@@ -72,6 +72,7 @@
 .footer_title {
     font-size: 20px;
     color: #212529;
+
     display: block;
     margin-bottom: 12px;
 }
@@ -92,7 +93,7 @@
     margin: 0 auto;
 }
 
-.plans_card:not(last-of-type) {
+.plans_card:not(:last-of-type) {
     margin-right: 24px;
 }
 
@@ -100,7 +101,7 @@
     padding: 12px;
     text-align: center;
     font-size: 24px;
-    color: #212529;
+    color: #384653;
 }
 
 .card-body {
@@ -112,8 +113,10 @@
     color: #212529;
 }
 
+
+
 .card_price_duration {
-    font-size: 24px;
+    font-size: 29px;
     color: #686b6f;
 }
 
