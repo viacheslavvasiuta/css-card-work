@@ -20,8 +20,19 @@
         </div>
 
         <div class="page_block">
-            Preview
+            <main class="row g-0 plans">
+
+                {{#each plans}}
+
+                <div class="col plans_card">
+                    {{> card data=this}}
+                </div>
+                {{/each}}
+            </main>
         </div>
+
+
+
 
         <div class="page_block">
             <footer class="row footer">
@@ -39,4 +50,3 @@
             </footer>
         </div>
     </div>
-</div>
