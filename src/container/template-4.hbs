@@ -1,7 +1,7 @@
 <header class="header">
-    <a href="#test">
+    <div>
         {{> logo}}
-    </a>
+    </div>
 
     <nav class="header_nav ">
         <div class="header_nav_right">
@@ -10,27 +10,16 @@
     </nav>
 </header>
 
-{{#with hero}}
-<div class="hero">
-    <div class="hero_content">
-        <h1 class="hero_title">{{title}}</h1>
-        <p class="hero_text">{{text}}</p>
+{{#with main}}
+<div class="main">
+    <div class="main_content">
+        <h1 class="main_heading">{{heading}}</h1>
+        <h2 class="main_descriotion">{{ descriotion}}</h2>
+        <img src="" alt="" class="main_image">
     </div>
-    <div class="hero_slider">
-        <div class="hero_slider_icon hero_slider_left">{{left}}</div>
-        <img src="{{photo}}" alt="Hero image" class="hero_image">
-        <div class="hero_slider_icon hero_slider_right">{{right}}</div>
-    </div>
+    <img src="{{photo}}" alt="main image" class="main_image">
 </div>
 {{/with}}
-
-<input type="text" class="input">
-
-<div class="modal">
-    {{hero.text}} {{hero.text}}
-    {{!-- <img src="{{hero.photo}}" alt="Hero image" class="modal_image"> --}}
-    <div class="modal_text">{{hero.text}} {{hero.text}}</div>
-</div>
 
 <main class="blog">
     {{#each blog}}
@@ -50,7 +39,7 @@
 </div>
 {{/with}}
 
-<footer class="footer" id="test">
+<footer class="footer">
     <div>
         {{> logo}}
         <span class="footer_copyright">Copyright 2023-2024</span>
